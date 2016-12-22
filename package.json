@@ -1,0 +1,30 @@
+{
+  "name": "nodejs_express_server_basic",
+  "version": "0.0.1",
+  "description": "NodeJs paprastas web serveris su Express karkasu",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodokursai/nodejs_express_server_basic.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "server",
+    "basic"
+  ],
+  "author": "Vygandas Pliasas",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kodokursai/nodejs_express_server_basic/issues"
+  },
+  "homepage": "https://github.com/kodokursai/nodejs_express_server_basic#readme"
+}
