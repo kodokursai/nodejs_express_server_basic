@@ -1,7 +1,12 @@
 var express = require('express');
 var app = express();
  
-app.get('/', function (request, response) {
+app.get('/person', function (request, response) {
+  var name = request.query.name;
+  response.send('Sveikas, ' + name + '!');
+});
+
+app.get('/', function (req, res) {
   response.send('Sveikas pasauli!');
 });
  
